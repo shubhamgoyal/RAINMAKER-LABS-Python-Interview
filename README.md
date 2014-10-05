@@ -24,3 +24,9 @@ Question 3 -
 Write a function declared as def SplitEmailAddress(address), whose argument will contain string data consisting of a valid e-mail address. This function will take the email address as the argument and return a dictionary with two keys: user for the username part and domain for the domain part of the address. For example, after calling:
 dict = SplitEmailAddress('myuser_1@mailserver.example.com') 
 dict['user'] should contain the string myuser_1, and  dict['domain'] should contain the string mailserver.example.com
+
+Question 4 -
+Write a function GetLongestString, whose arguments are character strings. It should return an integer representing the length of the longest string passed as its argument; for example:
+GetLongestString("a", "aaa", "aa") should return 3,
+GetLongestString("a", "bcd", "efgh", "ij", "") should return 4. 
+
