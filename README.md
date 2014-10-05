@@ -19,3 +19,8 @@ Question 2 -
 You are given an array in Python, which contains positive integers and/or recursively nested arrays of positive integers. It may, for example, be initialized as:
 arr = [[141,151,161],2,3,[101,202,[303,404]]]
 Write a function def MaxArray(arr) which returns the maximum value contained in arr or some array nested within arr. In the example, the returned value should be 404.
+
+Question 3 -
+Write a function declared as def SplitEmailAddress(address), whose argument will contain string data consisting of a valid e-mail address. This function will take the email address as the argument and return a dictionary with two keys: user for the username part and domain for the domain part of the address. For example, after calling:
+dict = SplitEmailAddress('myuser_1@mailserver.example.com') 
+dict['user'] should contain the string myuser_1, and  dict['domain'] should contain the string mailserver.example.com
