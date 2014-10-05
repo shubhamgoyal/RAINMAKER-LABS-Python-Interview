@@ -36,3 +36,16 @@ For Example : GetUniqueOnes(arr)
 arr = [34,54,67,68,141,151,161,141,54,151,54]
 should return 
 34,54,67,68,141,151,161
+
+Question 6 -
+Write a function ReadXml(xmlstr) which accepts an XML string as its only argument. Your function should write the names of the nodes and their values. 
+For Example : 
+ReadXml(xmlstr) where 
+xmlstr= '<Address><to>James</to><from>Jani</from><heading>Reminder</heading><body>Please check your mail.</body></Address>' 
+should return 
+Address
+to: James
+from: Jani
+heading: Reminder
+body: Please check your mail.
+Note: As the question requires the output to be displayed in the new/ next line, use "\n" instead of "<br>"
