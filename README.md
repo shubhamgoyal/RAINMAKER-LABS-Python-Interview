@@ -30,3 +30,9 @@ Write a function GetLongestString, whose arguments are character strings. It sho
 GetLongestString("a", "aaa", "aa") should return 3,
 GetLongestString("a", "bcd", "efgh", "ij", "") should return 4. 
 
+Question 5 -
+Write a function GetUniqueOnes, which accepts a single argument. The argument is an array of integers, and the function should return the unique integers separated by commas.
+For Example : GetUniqueOnes(arr) 
+arr = [34,54,67,68,141,151,161,141,54,151,54]
+should return 
+34,54,67,68,141,151,161
