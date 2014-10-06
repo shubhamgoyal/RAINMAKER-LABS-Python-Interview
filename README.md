@@ -49,3 +49,9 @@ from: Jani
 heading: Reminder
 body: Please check your mail.
 Note: As the question requires the output to be displayed in the new/ next line, use "\n" instead of "<br>"
+
+Question 7 -
+Consider a database with one table called "user" having two fields:
+"id" (type: INTEGER, PRIMARY KEY) 
+"name" (type: VARCHAR(32))
+Write a standard SQL query which retrieves the second highest value of "id" from the "user" table. The value returned should be represented using the column name "id".
