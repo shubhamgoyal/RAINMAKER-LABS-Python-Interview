@@ -55,3 +55,11 @@ Consider a database with one table called "user" having two fields:
 "id" (type: INTEGER, PRIMARY KEY) 
 "name" (type: VARCHAR(32))
 Write a standard SQL query which retrieves the second highest value of "id" from the "user" table. The value returned should be represented using the column name "id".
+
+Question 8 -
+Write a function GeneratePassword which accepts two arguments, an integer and a character string consisting of letters (a-z) and digits (0-9).
+When GeneratePassword(5,'abc0123') is called, it should return a random string of 5 characters taken from 'abc0123'. 
+For Example : GeneratePassword(7,'abczxc012394') could return any of the following outputs : 
+2c00acb 
+2c23z93 
+030b2a4
