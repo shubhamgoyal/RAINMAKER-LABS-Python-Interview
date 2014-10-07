@@ -66,3 +66,10 @@ For Example : GeneratePassword(7,'abczxc012394') could return any of the followi
 
 Question 9 -
 Write a program that outputs the numbers that are divisible by 8 and are between 200 and 600 (inclusive), separated by commas (without spaces or line breaks).
+
+Question 10 -
+Write a function declared as function ReformatPhoneNumber(number), whose argument will contain string data representing some phone number data (entered by the user). A valid phone number may consist of between 7 and 12 digits (0..9). Assume that in between some adjacent digits there may optionally appear either a single space, or a single hyphen (-). Any other phone number should be considered invalid.
+If the phone number is valid, the return value of your function should contain a string containing between 7 and 12 digits, representing the same phone number after removing all hyphens and spaces. If the phone number is invalid, throw a custom Python Exception with the message 
+"Invalid phone number".
+The first and the last character of the string should be a number.
+For example, after calling ReformatPhoneNumber('012-345 69') the return value should be '01234569'. Calling the function with any of these values: '012345', '-012345 678', '01203- 34566', '123456678875432', '1234x567' should result in an exception.
