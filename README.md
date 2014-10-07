@@ -63,3 +63,6 @@ For Example : GeneratePassword(7,'abczxc012394') could return any of the followi
 2c00acb 
 2c23z93 
 030b2a4
+
+Question 9 -
+Write a program that outputs the numbers that are divisible by 8 and are between 200 and 600 (inclusive), separated by commas (without spaces or line breaks).
